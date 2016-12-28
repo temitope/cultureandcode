@@ -39,7 +39,7 @@ You have just retrieved the value of your symbol and printed it out in the conso
 alert(a_variable_name);
 ```
 You should now see a box pop up with the value of the variable in addition to the console area print out of the value.
-See this fiddle for reference: <script async src="//jsfiddle.net/topeson/hx7n607u/embed/"></script> 
+See this fiddle for reference: https://jsfiddle.net/topeson/hx7n607u 
 
 
 ###Exercise 2 (arrays):  
@@ -54,14 +54,28 @@ In the JS section of the JSFiddle site:
 ```javascript
 var my_array = [var1, var2, var3];
 ```
-  *If you wish add two more lines of code to print out the array variable in the console and show it in the pop up using the console.log and alert methods described in Exercise 1.
- https://jsfiddle.net/topeson/vnkhuLrn/ 
+  *If you wish add two more lines of code to print out the array variable in the console and show it in the pop up using the console.log and alert methods described in Exercise 1.   
+ 
+ See this fiddle for reference: https://jsfiddle.net/topeson/vnkhuLrn/ 
 
 ###Exercise 3 (functions):  
-Now that we have a set of our variables representing an aspect of a culture, we can look at retrieving them and thinking about the manner in which we do so. Sometimes we just want to display everything and see what we have. But sometimes there is a specific application to life. We take the book from the library or open the chapter that is particularly useful at this juncture in our lives. In some oracle-based cultures we invoke a sort of cosmic randomness and trust in an expression of fate, that it will align with our purpose (similar to tarot cards, fortune cookies, casting dice, etc). Sometimes the cultural “keeper of wisdom” the babalawo, shaman, priest is best versed in the corpus and dispensation, so one might imagine the different scenarios at play here. In this new age of computational science and the tools of light and light manipulation (computer science) the knowledge is more accessible by all.
+Now that we have a set of variables representing an aspect of a culture, we can look at retrieving them and thinking about the manner in which we do so. The method of bringing forth the values of culture are usually couched in some sort of mechanism. Sometimes we just want to display everything and see what we have. But sometimes there is a specific application to life. We take the book from the library or open the chapter that is particularly useful at this juncture in our experience. In some oracle-based cultures we invoke a sort of cosmic randomness and trust in an expression of fate, that it will align with our purpose (similar to tarot cards, fortune cookies, casting dice, etc). Sometimes the cultural “keeper of wisdom” the babalawo, shaman, priest is best versed in the corpus and dispensation, so one might imagine the different scenarios at play here. In this new age of computational science and the tools of light and light manipulation (computer science) the knowledge is more accessible by all. The idea we will use to mirror a mechanism for value retrieval is called a "function".  To correspond to the "full", "specific" and "random" retrieval we will examine 3 implementations of a function
 
 Examples and Code: [alert functions for - full display, specific display, random display]
-
+  
+  * Full: this will show the full set of variable values when called
+  ```javascript
+  
+  ```
+  * Specific: this will choose a specific value and requires the passing in of a value into the function representing the index of the value desired. Note that arrays in javascript use 0-based indexes.
+  ```javascript
+  
+  ```
+  * Random: this will randomly select a value from the array to display.
+  ```javascript
+  
+  ```
+See this fiddle for reference - https://jsfiddle.net/topeson/5jeqme82/ 
 
 
 --optional exercises if time & scope permits--
