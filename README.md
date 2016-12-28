@@ -43,7 +43,7 @@ See this fiddle for reference: https://jsfiddle.net/topeson/hx7n607u
 
 
 ###Exercise 2 (arrays):  
-A set of variables in an array can be said to model a set of symbols in a culture  - store sets of variables in an array structure and retrieve them (introduce random retrieval to model oracle systems)
+A set of variables in an array can be said to model a set of symbols in a culture  - store sets of variables in an array structure and display them.
 
 A collection of variables can be grouped together. In a culture it may be called a book if put into physical form, but often they do exist simply in consciousness. See akashic records https://en.wikipedia.org/wiki/Akashic_records . Where retrieval is through memory (invoked by symbols in song or otherwise). In computer science we will group our variables using what is called an array structure. Arrays are created and referenced like variables (so there is a bit of a recursive/fractal idea happening here where variables are stored in variables).
 
@@ -97,13 +97,12 @@ The idea we will use to mirror a mechanism for value retrieval is called a "func
 ```
   1. Decide on the type of function you want to implement. Then create it and call it.
 
-  
 See this fiddle for reference (we chose the random function) - https://jsfiddle.net/topeson/5jeqme82/ 
 
 
 --optional exercises if time & scope permits--
-- optional (moving beyond JS) - hooking it all up to a user interface (buttons and inputs). 
-- Optional (more CS concepts) - logic and recursion : if/else, loops to represent logic and fractal infinity 
+- optional (moving beyond JS) - Couching culture in a veneer of usefulness and convenience. The frills around the core. Hooking it all up to a user interface (buttons and inputs). 
+- Optional (more CS concepts) - Creative complexity in culture. Logic and recursion : if/else, loops to represent logic and fractal infinity 
 
 
 
