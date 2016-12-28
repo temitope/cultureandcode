@@ -59,11 +59,10 @@ var my_array = [var1, var2, var3];
  See this fiddle for reference: https://jsfiddle.net/topeson/vnkhuLrn/ 
 
 ###Exercise 3 (functions):  
-Now that we have a set of variables representing an aspect of a culture, we can look at retrieving them and thinking about the manner in which we do so. The method of bringing forth the values of culture are usually couched in some sort of mechanism. Sometimes we just want to display everything and see what we have. But sometimes there is a specific application to life. We take the book from the library or open the chapter that is particularly useful at this juncture in our experience. In some oracle-based cultures we invoke a sort of cosmic randomness and trust in an expression of fate, that it will align with our purpose (similar to tarot cards, fortune cookies, casting dice, etc). Sometimes the cultural “keeper of wisdom” the babalawo, shaman, priest is best versed in the corpus and dispensation, so one might imagine the different scenarios at play here. In this new age of computational science and the tools of light and light manipulation (computer science) the knowledge is more accessible by all. The idea we will use to mirror a mechanism for value retrieval is called a "function".  To correspond to the "full", "specific" and "random" retrieval we will examine 3 implementations of a function
+Now that we have a set of variables representing an aspect of a culture, we can look at retrieving them and thinking about the manner in which we do so. The method of bringing forth the values of culture are usually couched in some sort of mechanism. Sometimes we just want to display everything and see what we have. But sometimes there is a specific application to life. We take the book from the library or open the chapter that is particularly useful at this juncture in our experience. In some oracle-based cultures we invoke a sort of cosmic randomness and trust in an expression of fate, that it will align with our purpose (similar to tarot cards, fortune cookies, casting dice, etc). Sometimes the cultural “keeper of wisdom” the babalawo, shaman, priest is best versed in the corpus and dispensation, so one might imagine the different scenarios at play here.  
 
 Examples and Code: [alert functions for - full display, specific display, random display]
-  1. Choose the type of function you want to implement and apply it to your culture array. Remember that functions are also variables.
-  2. After creating your function make sure to "call" your function. See the comments in the code below for tips on that.
+The idea we will use to mirror a mechanism for value retrieval is called a "function".  To correspond to the "full", "specific" and "random" retrieval we will examine 3 implementations of the function.
   
   * Full: this will show the full set of variable values when called
 ```javascript
@@ -96,6 +95,9 @@ Examples and Code: [alert functions for - full display, specific display, random
   //to call the function
   show_my_culture();
 ```
+  1. Decide on the type of function you want to implement.
+  2. After creating your function make sure to "call" your function. 
+  
 See this fiddle for reference (we chose the random function) - https://jsfiddle.net/topeson/5jeqme82/ 
 
 
