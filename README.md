@@ -89,7 +89,7 @@ Examples and Code: [alert functions for - full display, specific display, random
   * Random: this will randomly select a value from the array to display. Here we use a function built-in to JS that helps us ot choose random values
 ```javascript
   var show_my_culture = function(){
-    var pick = Math.rand(0, my_array.length); //this line assigns a random number the pick variable that is between 0 and the length of the array
+    var pick = Math.floor(Math.rand() * my_array.length)); //this line assigns a random number the pick variable that is between 0 and the length of the array
     alert(my_array[pick]);
     //you can alternatively call console.log(my_array) if you wish
   }
