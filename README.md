@@ -95,8 +95,8 @@ The idea we will use to mirror a mechanism for value retrieval is called a "func
   //to call the function
   show_my_culture();
 ```
-  1. Decide on the type of function you want to implement.
-  2. After creating your function make sure to "call" your function. 
+  1. Decide on the type of function you want to implement. Then create it and call it.
+
   
 See this fiddle for reference (we chose the random function) - https://jsfiddle.net/topeson/5jeqme82/ 
 
