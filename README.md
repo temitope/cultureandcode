@@ -20,21 +20,21 @@ Let’s learn how how to create variables as model for cultural symbols. We will
 P.S. variable names must be alphanumeric and contain no whitespace
 
 Examples and Code: (create meaningful variables names and values, use console.log to confirm)
-1. Go to jsfiddle.net using your Google Chrome Browser (Chrome)
-2. In the Javascript (JS) box section create your first variable by typing: 
+  1. Go to jsfiddle.net using your Google Chrome Browser (Chrome)
+  2. In the Javascript (JS) box section create your first variable by typing: 
 ```javascript
 var a_variable_name = “a value corresponding to this symbol”;
 ```
 You just stored value in a symbol, make sure it reflects part of the story of a culture you understand/know.
-1. In Chrome open the Javascript console View>Developer>Javascript Console
-2. In JSFiddle type the following code on the next available line in the JS section: 
+  1. In Chrome open the Javascript console View>Developer>Javascript Console
+  2. In JSFiddle type the following code on the next available line in the JS section: 
 ```javascript
 console.log(a_variable_name);
 ```
-3. Click the “Run” button in the upper-left hand corner of the JSFiddle page
+  3. Click the “Run” button in the upper-left hand corner of the JSFiddle page
 You have just retrieved the value of your symbol and printed it out in the console. You should be able to see the value you stored for your symbol printed out in the Javascript Console section you opened in Chrome.
-![https://www.dropbox.com/s/idpby1wq2gzd1bk/Screenshot%202016-12-27%2017.55.28.png?dl=0]
-1. In JSFiddle type the following code on the next available line in the JS section. Then click “Run” again: 
+[https://www.dropbox.com/s/idpby1wq2gzd1bk/Screenshot%202016-12-27%2017.55.28.png?dl=0]
+  1. In JSFiddle type the following code on the next available line in the JS section. Then click “Run” again: 
 ```javasript
 alert(a_variable_name);
 ```
@@ -49,8 +49,8 @@ A collection of variables can be grouped together. In a culture it may be called
 
 Examples and Code: (simply put variables into an array with pertinent variable name.)
 In the JS section of the JSFiddle site:
-1. Create a set of variables with corresponding values that could define an aspect of the culture you are focusing on.
-2. Create an array and put those variables into that array by typing: 
+  1. Create a set of variables with corresponding values that could define an aspect of the culture you are focusing on.
+  2. Create an array and put those variables into that array by typing: 
 ```javascript
 var my_array = [var1, var2, var3];
 ```
@@ -62,20 +62,41 @@ var my_array = [var1, var2, var3];
 Now that we have a set of variables representing an aspect of a culture, we can look at retrieving them and thinking about the manner in which we do so. The method of bringing forth the values of culture are usually couched in some sort of mechanism. Sometimes we just want to display everything and see what we have. But sometimes there is a specific application to life. We take the book from the library or open the chapter that is particularly useful at this juncture in our experience. In some oracle-based cultures we invoke a sort of cosmic randomness and trust in an expression of fate, that it will align with our purpose (similar to tarot cards, fortune cookies, casting dice, etc). Sometimes the cultural “keeper of wisdom” the babalawo, shaman, priest is best versed in the corpus and dispensation, so one might imagine the different scenarios at play here. In this new age of computational science and the tools of light and light manipulation (computer science) the knowledge is more accessible by all. The idea we will use to mirror a mechanism for value retrieval is called a "function".  To correspond to the "full", "specific" and "random" retrieval we will examine 3 implementations of a function
 
 Examples and Code: [alert functions for - full display, specific display, random display]
+  1. Choose the type of function you want to implement and apply it to your culture array. Remember that functions are also variables.
+  2. After creating your function make sure to "call" your function. See the comments in the code below for tips on that.
   
   * Full: this will show the full set of variable values when called
-  ```javascript
+```javascript
+  var show_my_culture = function(){
+    alert(my_array);
+    //you can alternatively call console.log(my_array) if you wish
+  }
+  //to call the function
+  show_my_culture();
+```
   
-  ```
   * Specific: this will choose a specific value and requires the passing in of a value into the function representing the index of the value desired. Note that arrays in javascript use 0-based indexes.
-  ```javascript
+```javascript
+  var show_my_culture = function(i){
+    //the i value is a variable for the index number value passed in when the function is called
+    alert(my_array[i]);
+    //you can alternatively call console.log(my_array[i]) if you wish
+  }
+  //to call the function. In this case calling  the function with 0 as the argument will be used to pull the first item in the array. Using 1 as the argument will call the 2nd, 2 the 3rd and so forth. Using a number for the argument that does not have a corresponding array value will cause an error
+  show_my_culture(0);
+```
   
-  ```
-  * Random: this will randomly select a value from the array to display.
-  ```javascript
-  
-  ```
-See this fiddle for reference - https://jsfiddle.net/topeson/5jeqme82/ 
+  * Random: this will randomly select a value from the array to display. Here we use a function built-in to JS that helps us ot choose random values
+```javascript
+  var show_my_culture = function(){
+    var pick = Math.rand(0, my_array.length); //this line assigns a random number the pick variable that is between 0 and the length of the array
+    alert(my_array[pick]);
+    //you can alternatively call console.log(my_array) if you wish
+  }
+  //to call the function
+  show_my_culture();
+```
+See this fiddle for reference (we chose the random function) - https://jsfiddle.net/topeson/5jeqme82/ 
 
 
 --optional exercises if time & scope permits--
