@@ -1,35 +1,35 @@
-####Pre-requisites
+#### Pre-requisites
   * Access to http://JSFiddle.net  (students can save their work exercises here for future reference and indepedent exploration if they choose)
   * Google Chrome Browser ( https://www.google.com/chrome/ )
 
-##Introduction 
+## Introduction 
 Variables and symbols within and beyond contemporary Computer Science. Examining history to find the parallels.
 Since antiquity humans have used symbols to hold value for society, in Computer Science “variables” are used as a type of symbol to hold values for programs. Own and relate a story about a culture’s values. Notice the system of values and systems in the culture. By doing this you are already preparing to understand the function of variables in the realm of Computer Science. 
 
->Teacher notes: Tell a story about a culture. It is important to understand and tell the story of a particular culture in order to authentically convey how ingrained and longstanding symbology and logic is to the human experience. See links below for areas of exploration that will give background for this course and inspiration for a cultural story to tell. It is important to think about what values from a cultural story are particularly relevant.
+> Teacher notes: Tell a story about a culture. It is important to understand and tell the story of a particular culture in order to authentically convey how ingrained and longstanding symbology and logic is to the human experience. See links below for areas of exploration that will give background for this course and inspiration for a cultural story to tell. It is important to think about what values from a cultural story are particularly relevant.
 
   + Patanjali’s 8 limbs of Yoga from India. Explanation of an ancient science for self-realization https://en.wikipedia.org/wiki/Yoga_Sutras_of_Patanjali 
   + The wisdom of Ifa (Afa) from west Africa. A corpus of wisdom stored in song and symbol. https://en.wikipedia.org/wiki/If%C3%A1 
   + Divination - https://en.wikipedia.org/wiki/Cleromancy 
   + Oracles https://en.wikipedia.org/wiki/Oracle#Greece 
 
-###Exercise 1 (variables):   
+### Exercise 1 (variables):   
 Let’s learn how how to create variables as model for cultural symbols. We will store values in variables (strings, numbers, other variables) and retrieve them.
 
->Teacher notes: Here we look at using the Javascript (JS) language to store values in variables to make the connection between symbols and values in cultures. We will make it very simple by storing string based values in the variables for now. Students should be mindful in the naming of their variables, just as they would imagine the choosing of symbols in a culture would be meaningful. It doesn’t have to be super esoteric or deep necessarily, but there should be a logical explanation for why something has a certain variable name.
+> Teacher notes: Here we look at using the Javascript (JS) language to store values in variables to make the connection between symbols and values in cultures. We will make it very simple by storing string based values in the variables for now. Students should be mindful in the naming of their variables, just as they would imagine the choosing of symbols in a culture would be meaningful. It doesn’t have to be super esoteric or deep necessarily, but there should be a logical explanation for why something has a certain variable name.
 P.S. variable names must be alphanumeric and contain no whitespace
 
 Examples and Code: (create meaningful variables names and values, use console.log to confirm)
   1. Go to jsfiddle.net using your Google Chrome Browser (Chrome)
   2. In the Javascript (JS) box section create your first variable by typing: 
-```javascript
-var a_variable_name = “a value corresponding to this symbol”;
-```
+ ``` javascript
+  var a_variable_name = “a value corresponding to this symbol”;
+ ```
 You just stored value in a symbol, make sure it reflects part of the story of a culture you understand/know.
   1. In Chrome open the Javascript console View>Developer>Javascript Console
   2. In JSFiddle type the following code on the next available line in the JS section: 
-```javascript
-console.log(a_variable_name);
+``` javascript
+ console.log(a_variable_name);
 ```
   3. Click the “Run” button in the upper-left hand corner of the JSFiddle page
 You have just retrieved the value of your symbol and printed it out in the console. You should be able to see the value you stored for your symbol printed out in the Javascript Console section you opened in Chrome.
