@@ -22,22 +22,30 @@ P.S. variable names must be alphanumeric and contain no whitespace
 Examples and Code: (create meaningful variables names and values, use console.log to confirm)
   1. Go to jsfiddle.net using your Google Chrome Browser (Chrome)
   2. In the Javascript (JS) box section create your first variable by typing: 
- ``` javascript
+
+```javascript
+
   var a_variable_name = “a value corresponding to this symbol”;
- ```
+  
+```
+
 You just stored value in a symbol, make sure it reflects part of the story of a culture you understand/know.
   1. In Chrome open the Javascript console View>Developer>Javascript Console
   2. In JSFiddle type the following code on the next available line in the JS section: 
-``` javascript
+
+```javascript
  console.log(a_variable_name);
 ```
+
   3. Click the “Run” button in the upper-left hand corner of the JSFiddle page
 You have just retrieved the value of your symbol and printed it out in the console. You should be able to see the value you stored for your symbol printed out in the Javascript Console section you opened in Chrome.
 [https://www.dropbox.com/s/idpby1wq2gzd1bk/Screenshot%202016-12-27%2017.55.28.png?dl=0]
   1. In JSFiddle type the following code on the next available line in the JS section. Then click “Run” again: 
+
 ```javasript
 alert(a_variable_name);
 ```
+
 You should now see a box pop up with the value of the variable in addition to the console area print out of the value.
 See this fiddle for reference: https://jsfiddle.net/topeson/hx7n607u 
 
