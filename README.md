@@ -97,15 +97,15 @@ The idea we will use to mirror a mechanism for value retrieval is called a "func
     alert(my_array[i]);
     //you can alternatively call console.log(my_array[i]) if you wish
   }
-  //to call the function. In this case calling  the function with 0 as the argument will be used to pull the first item in the array. Using 1 as the argument will call the 2nd, 2 the 3rd and so forth. Using a number for the argument that does not have a corresponding array value will cause an error
+  //to call the function. In this case calling  the function with 0 as the argument will be used to pull the first item in the    array. Using 1 as the argument will call the 2nd, 2 the 3rd and so forth. Using a number for the argument that does not       have a corresponding array value will cause an error
   show_my_culture(0);
 ```
   
-  * Random: this will randomly select a value from the array to display. Here we use a function built-in to JS that helps us to choose random values
+* Random: this will randomly select a value from the array to display. Here we use a function built-in to JS that helps us to choose random values
 
 ```javascript
   var show_my_culture = function(){
-    var pick = Math.floor(Math.rand() * my_array.length)); //this line assigns a random number the pick variable that is between 0 and the length of the array
+    var pick = Math.floor(Math.rand() * my_array.length)); //this line assigns a random number the pick variable that is            between 0 and the length of the array
     alert(my_array[pick]);
     //you can alternatively call console.log(my_array) if you wish
   }
