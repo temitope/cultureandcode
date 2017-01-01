@@ -22,8 +22,8 @@ P.S. variable names must be alphanumeric and contain no whitespace
 
 Examples and Code: (create meaningful variables names and values, use console.log to confirm)
   
-  + 1. Go to jsfiddle.net using your Google Chrome Browser (Chrome)
-  + 2. In the Javascript (JS) box section create your first variable by typing: 
+  1. Go to jsfiddle.net using your Google Chrome Browser (Chrome)
+  2. In the Javascript (JS) box section create your first variable by typing: 
 
 ```javascript
   var a_variable_name = “a value corresponding to this symbol”;
@@ -31,19 +31,19 @@ Examples and Code: (create meaningful variables names and values, use console.lo
 
 You just stored value in a symbol, make sure it reflects part of the story of a culture you understand/know.
   
-  + 1. In Chrome open the Javascript console View>Developer>Javascript Console
-  + 2. In JSFiddle type the following code on the next available line in the JS section: 
+  1. In Chrome open the Javascript console View>Developer>Javascript Console
+  2. In JSFiddle type the following code on the next available line in the JS section: 
 
 ```javascript
  console.log(a_variable_name);
 ```
 
-  + 3. Click the “Run” button in the upper-left hand corner of the JSFiddle page
+  3. Click the “Run” button in the upper-left hand corner of the JSFiddle page
   
 You have just retrieved the value of your symbol and printed it out in the console. You should be able to see the value you stored for your symbol printed out in the Javascript Console section you opened in Chrome.
 [https://www.dropbox.com/s/idpby1wq2gzd1bk/Screenshot%202016-12-27%2017.55.28.png?dl=0]
   
-  + 1. In JSFiddle type the following code on the next available line in the JS section. Then click “Run” again: 
+  1. In JSFiddle type the following code on the next available line in the JS section. Then click “Run” again: 
 
 ```javasript
 alert(a_variable_name);
@@ -61,8 +61,8 @@ A collection of variables can be grouped together. In a culture it may be called
 Examples and Code: (simply put variables into an array with pertinent variable name.)
 In the JS section of the JSFiddle site:
   
-  + 1. Create a set of variables with corresponding values that could define an aspect of the culture you are focusing on.
-  + 2. Create an array and put those variables into that array by typing: 
+  1. Create a set of variables with corresponding values that could define an aspect of the culture you are focusing on.
+  2. Create an array and put those variables into that array by typing: 
 
 ```javascript
 var my_array = [var1, var2, var3];
@@ -113,7 +113,7 @@ The idea we will use to mirror a mechanism for value retrieval is called a "func
   show_my_culture();
 ```
 
-+ 1. Decide on the type of function you want to implement. Then create it and call it.
+1. Decide on the type of function you want to implement. Then create it and call it.
 
 See this fiddle for reference (we chose the random function) - https://jsfiddle.net/topeson/5jeqme82/ 
 
