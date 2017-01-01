@@ -100,8 +100,10 @@ The idea we will use to mirror a mechanism for value retrieval is called a "func
   //to call the function. In this case calling  the function with 0 as the argument will be used to pull the first item in the    array. Using 1 as the argument will call the 2nd, 2 the 3rd and so forth. Using a number for the argument that does not       have a corresponding array value will cause an error
   show_my_culture(0);
 ```
-  
-* Random: this will randomly select a value from the array to display. Here we use a function built-in to JS that helps us to choose random values
+
+
+  * Random: this will randomly select a value from the array to display. Here we use a function built-in to JS that helps us to choose random values
+
 
 ```javascript
   var show_my_culture = function(){
@@ -111,9 +113,11 @@ The idea we will use to mirror a mechanism for value retrieval is called a "func
   }
   //to call the function
   show_my_culture();
+  
 ```
 
-1. Decide on the type of function you want to implement. Then create it and call it.
+
+  1. Decide on the type of function you want to implement. Then create it and call it.
 
 See this fiddle for reference (we chose the random function) - https://jsfiddle.net/topeson/5jeqme82/ 
 
